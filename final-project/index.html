@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="author" content="Jeff Lambert">
+        <meta name="description" content="Discover the delicious breads, sandwiches, and goodies from Great Harvest of Grand Rapids.">
+        <title>Great Harvest GR - Home</title>
+
+        <!-- Social Media Meta Tags -->
+        <meta property="og:title" content="Great Harvest GR - Home">
+        <meta property="og:image" content="images/fullColorLogo.webp">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://lamberj1986.github.io/wdd231/great-harvest-gr/index.html">
+
+        <!-- Favicon -->
+        <link rel="icon" href="images/doge.ico">
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="styles/main.css">
+
+        <!-- Fonts Import -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+        <!-- JS Modules -->
+        <script defer src="scripts/index.js"></script>
+        <script defer src="scripts/getdates.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="header-container">
+                <nav class="nav-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div class="top-label">
+                    <img src="images/fullColorLogo.webp" alt="Great Harvest GR Logo">
+                    <h1>Great Harvest GR</h1>
+                </div>
+                <p>Coming soon to Grand Rapids, MI</p>
+                
+                <button class="menu-toggle" aria-label="Open navigation menu">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+                
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h2>Welcome to Great Harvest Grand Rapids!</h2>
+                <p>Enjoy our freshly baked breads, wholesome goodies, and satisfying sandwiches.</p>
+            </section>
+
+            <section class="about-us">
+                <h2>Our Story</h2>
+                <div id="our-story">
+                    <p>The original Great Harvest was founded with a passion for baking and a commitment to quality, they have been serving communities across the nation for years. <br><br>We're excited to soon bring our fresh, handcrafted breads and delicious treats to Grand Rapids! Our products will be made with high-quality, locally-sourced ingredients and baked fresh daily.</p>
+                    <img src="images/wheat-field.webp" alt="Montana grown wheat makes our bread delicious">
+                </div>
+            </section>
+
+            <section class="services">
+                <h2>What We Offer</h2>
+                <div id="offerings">
+                    <div>
+                        <img src="images/scones.webp" alt="Blueberry scones baked fresh each day">
+                    </div>
+                    <div id="offerings-content">
+                        <p>At Great Harvest GR, we offer a wide range of freshly baked goods, including:<br><br></p>
+                        <ul>
+                            <li>Artisan Breads: Sourdough, whole wheat, and specialty loaves.</li>
+                            <li>Sandwiches: Delicious, made-to-order sandwiches with fresh ingredients.</li>
+                            <li>Sweets: Homemade cookies, muffins, and pastries.</li>
+                            <li>Catering: Custom orders for events, meetings, and gatherings.</li>
+                        </ul>
+                        <p><br>All of our products are crafted with care to ensure the highest quality and flavor.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="call-to-action">
+                <h2>Stay Updated!</h2>
+                <p>Want to be the first to know when we open our doors? Sign up for our newsletter to receive updates on our grand opening, special promotions, and new menu items!</p>
+                <a href="contact.html" class="cta-button">Sign Up for Updates</a>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>WDD231 Class Project | Jeff Lambert</p>
+            <p>&copy; <span id="currentYear"></span> Great Harvest of Grand Rapids</p>
+            <p><span id="lastModified"></span></p>
+        </footer>
+    </body>
+</html>

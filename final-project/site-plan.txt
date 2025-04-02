@@ -1,0 +1,33 @@
+Site Plan:
+Purpose - 
+    Streamline operations for a Great Harvest Bread Company location in Grand Rapids. 
+    (This is an actual business model that my parents are looking into opening)
+
+Audience -
+
+    Customers: Allow online order taking, track open orders, browse the menu
+    Employees: Log hours worked, complete any training, track active/completed training, manage orders
+    Admin/Managers: Oversee orders, track employee training/performance, other duties
+
+Data Sources -
+
+    localStorage: Save user preferences and cart
+    Local JSON: Store menu items, employee training content/progress, order tracking details
+
+Initial Module List -
+
+    Order Taking Module: Allow customers to browse menu, add to cart, and checkout
+    Order Tracking Module: Allow customers and employees to track status of orders
+    Employee Hour Tracking Module: Employees can clock in/out and view hours worked
+    Employee Training Module: Employees can access training materials, complete quizzes, and track progress
+    Admin Dashboard: Allow users to oversee all orders, employee schedules, and training progress.
+    Customer Account Module: Users can create accounts, save preferences, and view past orders
+
+Colors/Typography/Styling -
+
+    Primary Colors: Warm brown, beige, and golden hues to reflect the bakery’s branding
+    Typography: Clean, modern serif fonts for branding, and sans-serif for readability
+    Styling Elements:
+        Button styles with rounded edges for a friendly feel
+        Toast notifications for updates (e.g., "Order Placed Successfully!")
+        Simple, intuitive navigation with a responsive design
