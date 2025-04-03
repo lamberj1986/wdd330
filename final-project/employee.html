@@ -6,13 +6,10 @@
 
         <meta name="author" content="Jeff Lambert">
         <meta name="description" content="Discover the delicious breads, sandwiches, and goodies from Great Harvest of Grand Rapids.">
-        <title>Great Harvest GR - Home</title>
+        <title>Employee - Great Harvest GR</title>
 
         <!-- Social Media Meta Tags -->
-        <meta property="og:title" content="Great Harvest GR - Home">
-        <meta property="og:image" content="images/fullColorLogo.webp">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://lamberj1986.github.io/wdd231/great-harvest-gr/index.html">
+        <!-- Content not tagged properly intentionally, not wanting this page to be readily found. -->
 
         <!-- Favicon -->
         <link rel="icon" href="images/doge.ico">
@@ -43,47 +40,37 @@
                 </nav>
                 <div class="top-label">
                     <img src="images/fullColorLogo.webp" alt="Great Harvest GR Logo">
-                    <h1>Great Harvest GR</h1>
+                    <h1>Employees Only</h1>
                 </div>
                 <p>Coming soon to Grand Rapids, MI</p>
+
                 
                 <button class="menu-toggle" aria-label="Open navigation menu">
                     <span class="hamburger"></span>
                     <span class="hamburger"></span>
                     <span class="hamburger"></span>
                 </button>
-                
             </div>
         </header>
 
         <main>
-            <section class="hero">
-                <h2>Welcome to Great Harvest Grand Rapids!</h2>
-                <p>Feel free to reach out to us and leave us a comment or sign up for email updates via our newsletter.</p>
+            <section id="login-section">
+                <h2>Employee Login</h2>
+                <form id="employee-login">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Login</button>
+                </form>
             </section>
 
-            <section class="contact">
-                <h2>Get in Touch</h2>
-                <form id="contact-form" action="form-action.html" method="post">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                
-                    <label for="comment-type">Reason for Connecting:</label>
-                    <select id="comment-type" name="comment-type" required>
-                        <option value="" disabled selected>Type of Contact</option>
-                        <option value="comment">Comment</option>
-                        <option value="employment">Employment Interest</option>
-                        <option value="newsletter">Newsletter Signup</option>
-                    </select>
-                
-                    <button type="submit">Submit</button>
-                </form>
+            <section id="employee-dashboard" style="display: none;">
+                <h2>Dashboard</h2>
+                <!-- Admin and Employee specific sections -->
+                <div id="time-tracking"></div>
+                <div id="training"></div>
+                <div id="order-management"></div>
             </section>
         </main>
 

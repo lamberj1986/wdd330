@@ -6,8 +6,8 @@
 
         <meta name="author" content="Jeff Lambert">
         <meta name="description" content="Discover the delicious breads, sandwiches, and goodies from Great Harvest of Grand Rapids.">
-        <title>Great Harvest GR - Home</title>
-
+        <title>My Account - Great Harvest GR</title>
+        
         <!-- Social Media Meta Tags -->
         <meta property="og:title" content="Great Harvest GR - Home">
         <meta property="og:image" content="images/fullColorLogo.webp">
@@ -43,7 +43,7 @@
                 </nav>
                 <div class="top-label">
                     <img src="images/fullColorLogo.webp" alt="Great Harvest GR Logo">
-                    <h1>Great Harvest GR</h1>
+                    <h1>My Account</h1>
                 </div>
                 <p>Coming soon to Grand Rapids, MI</p>
                 
@@ -56,42 +56,27 @@
         </header>
 
         <main>
-            <section class="hero">
-                <h2>Welcome to Great Harvest Grand Rapids!</h2>
-                <p>Enjoy our freshly baked breads, wholesome goodies, and satisfying sandwiches.</p>
+            <section id="account-info">
+                <h2>Account Information</h2>
+                <form id="update-profile">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+
+                    <button type="submit">Update Profile</button>
+                </form>
             </section>
 
-            <section class="about-us">
-                <h2>Our Story</h2>
-                <div id="our-story">
-                    <p>The original Great Harvest was founded with a passion for baking and a commitment to quality, they have been serving communities across the nation for years. <br><br>We're excited to soon bring our fresh, handcrafted breads and delicious treats to Grand Rapids! Our products will be made with high-quality, locally-sourced ingredients and baked fresh daily.</p>
-                    <img src="images/wheat-field.webp" alt="Montana grown wheat makes our bread delicious">
+            <section id="past-orders">
+                <h2>Past Orders</h2>
+                <div id="orders-list">
+                    <!-- Past orders will be populated here -->
                 </div>
-            </section>
-
-            <section class="services">
-                <h2>What We Offer</h2>
-                <div id="offerings">
-                    <div>
-                        <img src="images/scones.webp" alt="Blueberry scones baked fresh each day">
-                    </div>
-                    <div id="offerings-content">
-                        <p>At Great Harvest GR, we offer a wide range of freshly baked goods, including:<br><br></p>
-                        <ul>
-                            <li>Artisan Breads: Sourdough, whole wheat, and specialty loaves.</li>
-                            <li>Sandwiches: Delicious, made-to-order sandwiches with fresh ingredients.</li>
-                            <li>Sweets: Homemade cookies, muffins, and pastries.</li>
-                            <li>Catering: Custom orders for events, meetings, and gatherings.</li>
-                        </ul>
-                        <p><br>All of our products are crafted with care to ensure the highest quality and flavor.</p>
-                    </div>
-                </div>
-            </section>
-
-            <section class="call-to-action">
-                <h2>Stay Updated!</h2>
-                <p>Want to be the first to know when we open our doors? Sign up for our newsletter to receive updates on our grand opening, special promotions, and new menu items!</p>
-                <a href="contact.html" class="cta-button">Sign Up for Updates</a>
             </section>
         </main>
 
