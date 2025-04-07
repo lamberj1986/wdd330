@@ -1,0 +1,52 @@
+[
+  {
+    "date": "2025-04-01",
+    "items": ["Honey Whole Wheat", "Cinnamon Roll"],
+    "status": "Delivered"
+  },
+  {
+    "date": "2025-04-02",
+    "items": ["Blueberry Muffin", "Banana Bread"],
+    "status": "Pending"
+  },
+  {
+    "date": "2025-04-03",
+    "items": ["Chocolate Chip Cookie", "Oatmeal Raisin Cookie"],
+    "status": "Cancelled"
+  },
+  {
+    "date": "2025-04-04",
+    "items": ["Sourdough Bread", "Rye Bread"],
+    "status": "Delivered"
+  },
+  {
+    "date": "2025-04-05",
+    "items": ["Pumpkin Spice Muffin", "Apple Pie"],
+    "status": "Pending"
+  },
+  {
+    "date": "2025-04-06",
+    "items": ["Croissant", "Baguette"],
+    "status": "Delivered"
+  },
+  {
+    "date": "2025-04-07",
+    "items": ["Pecan Pie", "Chocolate Cake"],
+    "status": "Pending"
+  },
+  {
+    "date": "2025-04-08",
+    "items": ["Lemon Tart", "Cheesecake"],
+    "status": "Cancelled"
+  },
+  {
+    "date": "2025-04-09",
+    "items": ["Brownie", "Fruitcake"],
+    "status": "Delivered"
+  },
+  {
+    "date": "2025-04-10",
+    "items": ["Bagel", "Danish Pastry"],
+    "status": "Pending"
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "username": "admin1",
+    "password": "admin123",
+    "name": "Jelly Roll",
+    "clockedIn": false,
+    "hours": 12,
+    "training": [
+      {
+        "title": "Food Safety",
+        "status": "Completed"
+      },
+      {
+        "title": "Customer Service",
+        "status": "In Progress"
+      },
+      {
+        "title": "Food Safety",
+        "status": "Completed"
+      },
+      {
+        "title": "Customer Service",
+        "status": "In Progress"
+      },
+      {
+        "title": "Baking Basics",
+        "status": "Completed"
+      },
+      {
+        "title": "Inventory Management",
+        "status": "Not Started"
+      },
+      {
+        "title": "Advanced Baking Techniques",
+        "status": "Not Started"
+      },
+      {
+        "title": "Customer Feedback Handling",
+        "status": "In Progress"
+      },
+      {
+        "title": "Health and Safety Regulations",
+        "status": "Completed"
+      },
+      {
+        "title": "Team Collaboration",
+        "status": "In Progress"
+      }
+    ]
+  },
+  {
+    "username": "employee",
+    "password": "password",
+    "name": "John Doe",
+    "clockedIn": false,
+    "hours": 12,
+    "training": [
+      {
+        "title": "Food Safety",
+        "status": "Completed"
+      },
+      {
+        "title": "Customer Service",
+        "status": "In Progress"
+      }
+    ]
+  },
+  {
+    "username": "baker1",
+    "password": "bread123",
+    "name": "Jane Smith",
+    "clockedIn": true,
+    "hours": 25,
+    "training": [
+      {
+        "title": "Baking Basics",
+        "status": "Completed"
+      },
+      {
+        "title": "Inventory Management",
+        "status": "Not Started"
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+[
+    {
+      "id": "user001",
+      "username": "janedoe",
+      "password": "hashedpassword123",
+      "email": "jane@example.com",
+      "preferences": {
+        "favoriteItems": ["Cinnamon Chip"]
+      },
+      "orderHistory": ["ORD001"]
+    }
+  ]
+  

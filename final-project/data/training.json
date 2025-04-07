@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Food Safety",
+    "status": "Completed"
+  },
+  {
+    "title": "Customer Service",
+    "status": "In Progress"
+  },
+  {
+    "title": "Baking Basics",
+    "status": "Completed"
+  },
+  {
+    "title": "Inventory Management",
+    "status": "Not Started"
+  },
+  {
+    "title": "Advanced Baking Techniques",
+    "status": "Not Started"
+  },
+  {
+    "title": "Customer Feedback Handling",
+    "status": "In Progress"
+  },
+  {
+    "title": "Health and Safety Regulations",
+    "status": "Completed"
+  },
+  {
+    "title": "Team Collaboration",
+    "status": "In Progress"
+  }
+]

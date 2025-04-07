@@ -25,6 +25,7 @@
         <!-- JS Modules -->
         <script defer src="scripts/index.js"></script>
         <script defer src="scripts/getdates.js"></script>
+        <script defer src="scripts/employee.js"></script>
     </head>
 
     <body>
@@ -54,24 +55,34 @@
         </header>
 
         <main>
-            <section id="login-section">
-                <h2>Employee Login</h2>
-                <form id="employee-login">
-                    <label for="username">Username</label>
-                    <input type="text" id="username" name="username" required>
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" required>
-                    <button type="submit">Login</button>
+            <section>
+                <h2>Login</h2>
+                <form id="login-form">
+                  <label>Username: <input type="text" id="username"></label><br>
+                  <label>Password: <input type="password" id="password"></label><br>
+                  <button type="submit">Login</button>
                 </form>
-            </section>
-
-            <section id="employee-dashboard" style="display: none;">
-                <h2>Dashboard</h2>
-                <!-- Admin and Employee specific sections -->
-                <div id="time-tracking"></div>
-                <div id="training"></div>
-                <div id="order-management"></div>
-            </section>
+              </section>
+          
+              <section id="employee-content" style="display:none;">
+                <h2>Clock In/Out</h2>
+                <button id="clock-in">Clock In</button>
+                <button id="clock-out">Clock Out</button>
+                
+                
+                <h2>Training</h2>
+                <table id="training-table">
+                    <thead>
+                      <tr>
+                        <th>Title</th>
+                        <th>Status</th>
+                      </tr>
+                    </thead>
+                    <tbody id="training-list">
+                      <!-- Training modules will be inserted here -->
+                    </tbody>
+                  </table>                  
+              </section>
         </main>
 
         <footer>
