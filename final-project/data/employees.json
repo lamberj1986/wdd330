@@ -3,7 +3,7 @@
     "username": "jellyroll",
     "password": "password",
     "name": "Jelly Roll",
-    "role": "admin",
+    "role": "employee",
     "clockedIn": true,
     "hours": 12,
     "training": [
