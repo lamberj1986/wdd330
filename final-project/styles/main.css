@@ -159,6 +159,124 @@ header {
     border-radius: 5px;
 }
 
+/* Employee Training Table Styling */
+#training-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#training-table th,
+#training-table td {
+    padding: 12px 16px;
+    text-align: left;
+}
+
+#training-table th {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+#training-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#training-table tr:hover {
+    background-color: #e0f0ff;
+}
+
+/* Clock In/Out Buttons Styling */
+.clock-btn {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 14px 28px;
+    margin: 10px 10px 20px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.clock-btn:hover {
+    background-color: var(--primary-color);
+}
+
+/* Logged-In Users Styling */
+#logged-in-users {
+    margin-top: 30px;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--primary-color);
+}
+
+#logged-in-users h3 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: var(--alt-text-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 5px;
+}
+
+#logged-in-users ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#logged-in-users li {
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    background-color: var(--background-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+/* Styled Table */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.styled-table th,
+.styled-table td {
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 1px solid var(--secondary-color);
+    color: var(--text-color);
+}
+
+.styled-table th {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    font-weight: bold;
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.styled-table tr:hover {
+    background-color: #e0f0ff;
+}
+  
+
 /* Form styling */
 form {
     margin-top: 20px;

@@ -1,9 +1,10 @@
 [
   {
-    "username": "admin1",
-    "password": "admin123",
+    "username": "jellyroll",
+    "password": "password",
     "name": "Jelly Roll",
-    "clockedIn": false,
+    "role": "admin",
+    "clockedIn": true,
     "hours": 12,
     "training": [
       {
@@ -52,6 +53,7 @@
     "username": "employee",
     "password": "password",
     "name": "John Doe",
+    "role": "employee",
     "clockedIn": false,
     "hours": 12,
     "training": [
@@ -69,6 +71,7 @@
     "username": "baker1",
     "password": "bread123",
     "name": "Jane Smith",
+    "role": "employee",
     "clockedIn": true,
     "hours": 25,
     "training": [
@@ -81,5 +84,11 @@
         "status": "Not Started"
       }
     ]
+  },
+  {
+    "username": "admin1",
+    "password": "admin123",
+    "role": "admin",
+    "training": []
   }
 ]
