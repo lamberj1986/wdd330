@@ -57,7 +57,17 @@
         </header>
 
         <main>
-            <section id="account-info">
+            <section id="login-section">
+                <h2>Login</h2>
+                <form id="login-form">
+                    <label>Username: <input type="text" id="username" required></label><br>
+                    <label>Password: <input type="password" id="password" required></label><br>
+                    <button type="submit">Login</button>
+                </form>
+                <p id="error-message" style="color:red;"></p>
+            </section>
+
+            <section id="account-info" style="display:none;">
                 <h2>Account Details</h2>
                 <form id="account-form">
                     <label>Name: <input type="text" id="name" required></label><br>
@@ -66,10 +76,27 @@
                 </form>
             </section>
 
-            <section id="past-orders">
+            <section id="past-orders" style="display:none;">
                 <h2>Past Orders</h2>
-                <div id="orders-list">
-                    <!-- Past orders will be populated here -->
+                <table id="order-history-table" class="styled-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Order ID</th>
+                            <th>Items</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="orders-list">
+                        <!-- Order rows will be populated here -->
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="preferences" style="display:none;">
+                <h2>Preferences</h2>
+                <div id="preferences-list">
+                    <!-- Preferences will be populated here -->
                 </div>
             </section>
         </main>

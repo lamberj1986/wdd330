@@ -275,7 +275,68 @@ header {
 .styled-table tr:hover {
     background-color: #e0f0ff;
 }
-  
+
+/* Styling for Past Orders Table */
+#orders-list {
+    margin-top: 15px;
+}
+
+#orders-list p {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+#orders-list p:nth-child(even) {
+    background-color: #f9f9f9; /* Light background for even rows */
+}
+
+/* Styling for Preferences Section */
+#preferences-list {
+    margin-top: 15px;
+}
+
+#preferences-list p {
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid var(--primary-color);
+    color: var(--text-color);
+}
+
+/* Styling for each preference item */
+#preferences-list p + p {
+    margin-top: 8px;
+}
+
+/* Styling for Account Form Inputs */
+#account-form input[type="text"],
+#account-form input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+#account-form button {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    font-size: 16px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#account-form button:hover {
+    background-color: var(--accent-color);
+}
 
 /* Form styling */
 form {

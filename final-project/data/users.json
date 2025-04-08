@@ -1,13 +1,47 @@
 [
     {
       "id": "user001",
-      "username": "janedoe",
-      "password": "hashedpassword123",
+      "username": "j.doe",
+      "name": "Jane Doe",
+      "password": "apassword1",
       "email": "jane@example.com",
       "preferences": {
         "favoriteItems": ["Cinnamon Chip"]
       },
-      "orderHistory": ["ORD001"]
+      "orderHistory": ["ORD001","ORD010"]
+    },
+    {
+      "id": "user002",
+      "username": "johndoe",
+      "name": "John Doe",
+      "password": "breadlover",
+      "email":"jane@example.com",
+      "preferences": {
+        "favoriteItems": ["Dakota"]
+      },
+      "orderHistory": ["ORD002", "ORD003", "ORD009"]
+    },
+    {
+      "id": "user003",
+      "username": "alice",
+      "name": "Alice Smith",
+      "password": "ilovebread12",
+      "email":"jane@example.com",
+      "preferences": {
+        "favoriteItems": ["Farmhouse White"]
+      },
+      "orderHistory": ["ORD004", "ORD005"]
+    },
+    {
+      "id": "user004",
+      "username": "bob",
+      "name": "Bob Johnson",
+      "email":"jane@example.com",
+      "password": "foodie12",
+      "preferences": {
+        "favoriteItems": ["Honey Whole Wheat"]
+      },
+      "orderHistory": ["ORD006", "ORD007", "ORD008"]
     }
   ]
   

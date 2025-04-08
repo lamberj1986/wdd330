@@ -3,6 +3,6 @@
 .vscode
 web_modules
 node_modules
+data/*.json
 notes
 .env
-data/*.json
